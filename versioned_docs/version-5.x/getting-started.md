@@ -69,6 +69,8 @@ import 'react-native-gesture-handler';
 
 > Note: If you are building for Android or iOS, do not skip this step, or your app may crash in production even if it works fine in development. This is not applicable to other platforms.
 
+> Note: Remember to stop your app and start it again. In this tutorial you are installing some native dependencies, so you need to reinstall your app. Use react-native run-android or react-native ios for it.
+
 Now, we need to wrap the whole app in `NavigationContainer`. Usually you'd do this in your entry file, such as `index.js` or `App.js`:
 
 ```js
